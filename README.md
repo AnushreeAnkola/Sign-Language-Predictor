@@ -1,0 +1,2 @@
+# Sign-Language-Predictor
+Implement  a  web  application  that  translates  American  Sign  language  and  displays  the  prediction  results  as  text  to  the  user.  The  project  also  fulfills  the  task  of  real  time  data  collection  from  the  web  camera,  connected  to  the  PC.  The  sign  captured  from  it  is  sent  through  the  trained  model  to  predict  the  nature  of  the  sign. 
