@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<html>
+
+<head>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="{% static 'css/result_decor.css' %}">
+</head>
+
+<body>
+  <a href="../../upload/form" class="home">Back</a>
+  <a href="../../index" class="home">Home Page</a>
+  <h1>Prediction Result</h1>
+  <div class="content">
+    <ul>
+      {%for item in result%}
+      <li>&nbsp;&nbsp;&nbsp;{{item}}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="letter">
+    <p class="shadow textView animated bounce">{{result.0.0}}</p>
+  </div>
+
+  <div class="sign">
+    <img src="{{MEDIA_URL}}/media/input/input.jpg" />
+  </div>
+  
+</body >
+</html >
