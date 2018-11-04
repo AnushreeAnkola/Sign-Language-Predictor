@@ -6,7 +6,7 @@ Operating System Required is Ubuntu 16.04 or newer with the following dependenci
  	-- Django 2.0.3
  	-- Tensorflow 1.6.0
 
-After the installation, unzip the source code (asl.zip), in the command line window, change the directory to 'asl\tuffy' and run the command 'python3 manage.py runserver'
+After the installation, clone the project to your desktop and run the command 'python3 manage.py runserver'
 
 To run the application, open a web browser (Google Chrome) and go to the URL 'http://127.0.0.1:8000/index'
 
